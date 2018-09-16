@@ -1,0 +1,260 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Captain Code"
+favicon = "favicon.ico"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "Eddy D. Varela"
+  description = "landing page for a software development company"
+  email = "eddy@captaincode.custom_css"
+  # Navigation
+  [params.navigation]
+    brand = "Captain Code"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+ 
+  # Hero section
+  [params.hero]
+    title = "Let us help build your tomorrow"
+    subtitle = 'A software development company focused on helping businesses leverage software to improve operations.'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "First, design the product you are building. Narrow down what are the primary needs of the consumer."
+    url = "#projects"
+    button = "Our Projects"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "Develop small parts but develop fast. Do not try to create the entire product before getting it out to your consumers."
+    url = "#clients"
+    button = "What clients say"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "The big day, ready to launch your product. Here is your opportunity to test all your assumptions and improve the product! "
+    url = "#services"
+    button = "What we do"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=GyrPUE_jw98"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Work"
+    description = "We believe in always creating the best quality product for our customers <br> Here are some of our projects."
+    footertext = '** Projects link to the live websites'
+
+    [[params.work.row]]
+      img = "fpts.png"
+      alt = "Image2"
+      title = "Florida Property Tax Service"
+      link = "https://www.fpts.net"
+      subtitle = "Web Redesign"
+
+    [[params.work.row]]
+      img = "glamour.png"
+      alt = "Image2"
+      link = "https://glamourballrooms.com"
+      title = "Glamour Ballrooms"
+      subtitle = "CMS"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      link = "https://www.nayamua.com"
+      title = "NayaMUA"
+      subtitle = "Web Design"
+
+  
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "We let our clients do the talking for us."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo; &rdquo;"
+      person = 'Ronald Rodriguez, President <a href="https://fpts.net" target="_blank"> Florida Property Tax Service</a> <span class="subtext">Marketing and Operations</span>'
+      img = "person4.jpg"
+      alt = "Person3"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo; The best web developer ever, hard working and extremely communicative &rdquo;"
+      person = 'Nayelis Sanchez, Founder <a href="http://nayamua.com/" target="_blank"> NayaMUA.com</a> <span class="subtext">Makeup Artist</span>'
+      img = "person4.jpg"
+      alt = "Person4"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Captain Code understands our struggle with technology and provided us with tutorial videos in order to facilitate our web management. &rdquo;"
+      person = 'Ingrid, Director <a href="http://glamourballrooms.com/" target="_blank"> Glamour Ballrooms</a> <span class="subtext">Creative Director</span>'
+      img = "person4.jpg"
+      alt = "Person5"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "We love to code and we want your website to be awesome. <br>A good website is like a firm handshake with a new customer. <br> Let us be the best investment for your business. "
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Corporate as well as personal branding is critical for a company's identity. How do you appear to your clients? Do you come off as an approachable company that cares about its clients?"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "We use theoretical user experience guidelines to ensure that clients can easily interact with your site. We specialize on custom web applications and popular web development frameworks like Wordpress."
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Before stepping into the Software Development space, our team worked in the photography and media production space. Specifically, in event photography and creative video production."
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "We help small and medium business sell their products online. We have been able to implement our own ecommerce platform or popular applications like Shopify/WooCommerce"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Just a couple of ambitious college students looking to help others CRUSH it."
+    [[params.about.item]]
+      name = "Eddy Varela"
+      position = "CEO </br> Head of Customer Relations"
+      description = "Sophmore at Williams College studying Computer Science, Math, and conentrating in Latina/o Studies. Passionate about making technology accessible. Born in Cuba raised in Miami, FL."
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "https://twitter.com/eddysitooo"],
+        ["icon-youtube", "https://www.youtube.com/channel/UC8kKG6khkAcNqZXfgk-ubEA/featured"],
+        ["icon-linkedin", "https://www.linkedin.com/in/eddy-varela/"]
+      ]
+
+    [[params.about.item]]
+      name = "Shivam Patel"
+      position = "Systems Engineer"
+      description = "Junior at Williams College studying Computer Science. Hobbies include writing software, learning from others, and designing systems that can solve tough problems. Born and raised in Indio, CA."
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Gaurnett Flowers"
+      position = "Web Designer <br/> Mobile App Developer"
+      description = "College freshman from Jamaica attending Williams College studying Computer Science and Economics. Hobbies include coding, reading about technology and playing video games."
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 3
+      interval = 10
+      speed = 3000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2843
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 126
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 6
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in touch"
+    description = "Still not convinced? Have any more questions?<br> We would love to hear from you, please leave us a message below. "
+    
+    details = [
+        ["icon-home", "85 Main Street, Suite 218 <br> North Adams, Massachusetts"],
+        ["icon-phone", "(786) 266-7716"],
+        ["icon-envelope", "eddy@captaincode.cc"],
+        ["icon-globe", '<a href="http://www.captaincode.cc/" target="_blank">Captain Code</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '<br/> Captain Code LLC. 2018 &copy; <br> All Rights Reserved. <br>Developed with love by the people at Captain Code'
+    links = [
+        ["icon-instagram", "https://www.instagram.com/captain_code_/"],
+        ["icon-facebook", "https://www.facebook.com/captaincodeservice/"],
+        ["icon-youtube", "https://www.youtube.com/channel/UC8kKG6khkAcNqZXfgk-ubEA"]
+      ]
