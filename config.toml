@@ -89,7 +89,7 @@ theme = "hugo-elate-theme"
       subtitle = "CMS"
 
     [[params.work.row]]
-      img = "work_3.jpg"
+      img = "nayamua.png"
       alt = "Image3"
       link = "https://www.nayamua.com"
       title = "NayaMUA"
@@ -104,21 +104,21 @@ theme = "hugo-elate-theme"
     description = "We let our clients do the talking for us."
 
     [[params.testimonials.item]]
-      quote = "&ldquo; &rdquo;"
-      person = 'Ronald Rodriguez, President <a href="https://fpts.net" target="_blank"> Florida Property Tax Service</a> <span class="subtext">Marketing and Operations</span>'
-      img = "person4.jpg"
+      quote = "&ldquo;With an eye for design and a business perspective, Captain Code was able to redesign our site and increase customer conversion rates in a matter of weeks.&rdquo;"
+      person = 'Ronald, President <a href="https://fpts.net" target="_blank"> Florida Property Tax Service</a> <span class="subtext">Marketing and Operations</span>'
+      img = "ronald.jpg"
       alt = "Person3"
 
     [[params.testimonials.item]]
       quote = "&ldquo; The best web developer ever, hard working and extremely communicative &rdquo;"
-      person = 'Nayelis Sanchez, Founder <a href="http://nayamua.com/" target="_blank"> NayaMUA.com</a> <span class="subtext">Makeup Artist</span>'
-      img = "person4.jpg"
+      person = 'Nayelis, Founder <a href="http://nayamua.com/" target="_blank"> NayaMUA.com</a> <span class="subtext">Makeup Artist</span>'
+      img = "nayamua-logo.jpg"
       alt = "Person4"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Captain Code understands our struggle with technology and provided us with tutorial videos in order to facilitate our web management. &rdquo;"
       person = 'Ingrid, Director <a href="http://glamourballrooms.com/" target="_blank"> Glamour Ballrooms</a> <span class="subtext">Creative Director</span>'
-      img = "person4.jpg"
+      img = "glamour.jpg"
       alt = "Person5"
     
 
@@ -173,9 +173,9 @@ theme = "hugo-elate-theme"
       img = "person2.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-facebook", "https://www.linkedin.com/in/shivam-patel-570046138/"],
+        ["icon-github", "https://github.com/shivam0198"],
+        ["icon-linkedin", ""]
       ]
 
     [[params.about.item]]
@@ -186,8 +186,8 @@ theme = "hugo-elate-theme"
       alt = "Person3"
       social = [
         ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-github", "#"],
+        ["icon-linkedin", "#"],
       ]      
 
   # Counters section
@@ -200,7 +200,7 @@ theme = "hugo-elate-theme"
       description = "Finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 3
+      to = 6
       interval = 10
       speed = 3000
 
@@ -208,7 +208,7 @@ theme = "hugo-elate-theme"
       description = "Lines of code"
       icon = "icon-code"
       from = 0
-      to = 2843
+      to = 4096
       interval = 50
       speed = 5000
 
@@ -231,7 +231,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "Still not convinced? Have any more questions?<br> We would love to hear from you, please leave us a message below. "
